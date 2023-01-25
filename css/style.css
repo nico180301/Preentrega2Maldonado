@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100&family=Staatliches&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #160101;
+}
+
+
+.contenedor  {
+    border: 2px solid #000;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+/*MAIN*/
+
+
+/*TEXTO DEL MAIN INDEX*/
+.hero__text {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 2px;
+
+    bottom: 10rem;
+
+
+}
+
+
+/*NOMBRE*/
+.hero__text h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 7rem;
+    margin: 0;
+}
+
+/*TITULO*/
+.hero__text h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+    padding: 0 0 1rem 0;
+    margin: 0;
+
+}
+
+/*LORE*/
+.hero__text h4 {
+    font-family: 'Manjari', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 0  2rem;
+    margin: 0;
+    text-align:center;
+}
+
+/*PIE DE PAGINA*/
+footer {
+    width: 100%;
+    background-color: #000;
+}
+
+.tldr {
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.tldr small {
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px) {
+
+    .contenedor-img {
+        border: 2px solid #000;
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        align-content: flex-end;
+    }
+
+    .hero__text {
+
+
+
+    }
+
+
+    .tldr {
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .tldr small {
+        font-size: 13px;
+    }
+}
